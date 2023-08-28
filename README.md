@@ -82,7 +82,7 @@
     EMAIL_HOST_USER – имя пользователя на почтовом сервере
     EMAIL_HOST_PASSWORD – пароль пользователя на почтовом сервере
     API_KEY – ключ Yandex Maps API
-    WEATHER_API_KEY – Ключ Yandex Weather API (Тариф Тестовый)
+    WEATHER_API_KEY – Ключ Yandex Weather API
 
 ### Локальное развёртывание
 
