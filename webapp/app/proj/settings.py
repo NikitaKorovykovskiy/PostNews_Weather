@@ -163,10 +163,10 @@ CELERY_BROKER_URL = "redis://redis:6379"
 
 # Email config
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST = os.getenv("EMAIL_HOST")
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "djangocelery12@gmail.com"
-EMAIL_HOST_PASSWORD = "DjangoCelery1193!"
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
 EMAIL_USE_TLS = True
 CONFIG = {
     "EMAIL_SEND_TIME": (time(hour=6, minute=51), "Время отправки"),
