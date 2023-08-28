@@ -1,5 +1,5 @@
-from django import forms
 from proj.settings import API_KEY
+from django import forms
 
 
 class MapWidget(forms.Widget):

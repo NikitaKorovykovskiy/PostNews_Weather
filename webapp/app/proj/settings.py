@@ -176,7 +176,7 @@ CONFIG = {
 CONSTANCE_BACKEND = "constance.backends.database.DatabaseBackend"
 CONSTANCE_CONFIG = {
     "EMAIL_RECIPIENTS": (
-        "nikita.korovyakovskiy@gmail.com",
+        "n.kor@gmail.com",
         "Список адресатов через пробел",
     ),
     "EMAIL_SUBJECT": ("Новости за сегодня", "Тема сообщения"),
