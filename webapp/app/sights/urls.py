@@ -1,5 +1,4 @@
 from django.urls import path
-
 from sights.views import sights_import
 
 urlpatterns = [

@@ -1,4 +1,5 @@
 from django.contrib import admin
+
 from .forms import SightAdminForm
 from .models import Sights
 

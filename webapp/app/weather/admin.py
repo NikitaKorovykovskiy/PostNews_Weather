@@ -1,5 +1,6 @@
-from .models import WeatherSummary
 from django.contrib import admin
+
+from .models import WeatherSummary
 
 
 class WeatherAdmin(admin.ModelAdmin):

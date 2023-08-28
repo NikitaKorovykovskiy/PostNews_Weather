@@ -1,5 +1,4 @@
 from django import forms
-
 from sights.widgets import MapWidget
 
 

@@ -1,5 +1,4 @@
 from django import forms
-
 from proj.settings import API_KEY
 
 
